@@ -5,7 +5,7 @@ from __future__ import annotations
 from .client import DiyanetApiClient
 from .exceptions import DiyanetApiError, DiyanetAuthError, DiyanetConnectionError
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "DiyanetApiClient",
