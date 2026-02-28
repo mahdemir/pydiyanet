@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pydiyanet"
-version = "0.1.1"
+version = "0.1.2"
 description = "Python client for Diyanet prayer times API"
 readme = "README.md"
 requires-python = ">=3.11"
