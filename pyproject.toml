@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydiyanet"
+version = "0.1.0"
+description = "Python client for Diyanet prayer times API"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Mahmut Demir", email = "mahmutemindemir@gmail.com"}
+]
+keywords = ["diyanet", "prayer times", "islam", "api", "async"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Home Automation",
+    "Typing :: Typed",
+]
+dependencies = [
+    "aiohttp>=3.9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/mahdemir/pydiyanet"
+Repository = "https://github.com/mahdemir/pydiyanet"
+Issues = "https://github.com/mahdemir/pydiyanet/issues"
+
+[tool.setuptools]
+packages = ["pydiyanet"]
+
+[tool.setuptools.package-data]
+pydiyanet = ["py.typed"]
